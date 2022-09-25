@@ -39,7 +39,6 @@ while(True):
             onservice = True
         if(onservice == "False"):
             onservice = False
-
         arbol.create(path,data,efimero,onservice,int(deadtime),padre)
     if(opcion == "2"):
         path = input("Path = ")
@@ -52,7 +51,7 @@ while(True):
         arbol.showNode(path)
     if(opcion == "5"):
         path = input("Path = ")
-        contenido = input("Contenino =")
+        contenido = input("Contenido =")
         arbol.setData(path,contenido)
     if (opcion=="6"):
         path = input("Path = ")
